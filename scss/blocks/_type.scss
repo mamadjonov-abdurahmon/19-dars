@@ -1,0 +1,199 @@
+.type{
+ display: flex;
+ width: 1110px;
+ margin: 0 auto;
+ margin-bottom: 168px;
+}
+
+.type__item{
+ margin: 0;
+ padding: 0;
+ list-style: none;
+ margin-right: 125px;
+}
+
+
+.type__lead{
+ display: flex;
+ align-items: center;
+}
+
+.type__link{
+ text-decoration: none;
+}
+
+.type__lead:hover > .type__span{
+ color: $--darc-syan-color;
+ transition: all 0.4s ease;
+}
+
+.type__lead:hover > .type__text{
+ color:$--Grey-Blue-color;
+ transition: all 0.4s ease;
+}
+
+.type__span{
+ font-weight: 900;
+ font-size: 24px;
+ line-height: 32px;
+ color: #B2B5B6;
+ font-family: $--font-font-font-family;
+ margin-right: 28px;
+ margin-bottom: 24px;
+}
+
+.type__text{
+ margin: 0;
+ font-weight: 900;
+ font-size: 24px;
+ line-height: 32px;
+ color: #B2B5B6;
+ font-family: $--font-font-font-family;
+ margin-bottom: 24px;
+}
+
+.type__line{
+ display: block;
+ width: 255px;
+ height: 1px;
+ border-bottom: 1px solid $--Grey-color;
+ opacity: 0.6;
+ margin-bottom: 24px;
+}
+
+.middil__box{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ margin-bottom: 56px;
+ padding-right: 20px;
+}
+
+.middil__box:hover > .middil__img{
+ opacity: 0.6;
+ transition: all 0.4s ease;
+}
+
+.middil__box:hover > .middil__taitl{
+ opacity: 0.6;
+ transition: all 0.4s ease;
+}
+
+.middil__taitl{
+ margin: 0;
+ margin-right: 90px;
+ font-weight: 900;
+ font-size: 40px;
+ line-height: 48px;
+ color: $--Grey-color;
+}
+
+.middil__taitl:hover{
+ opacity: 0.6;
+ transition: all 0.4s ease;
+}
+
+.middil__label-box{
+ display: flex;
+
+}
+
+.middil__label{
+ margin-right: 22px;
+ margin-bottom: 88px;
+}
+
+.middil__span{
+ width: 228px;
+ height: 250px;
+ padding: 32px 28px;
+ background-color:#F4F1EB;
+ border-radius: 10px;
+ &:hover{
+  background-color: $--Pale-Orange;
+  transition: all 0.4s ease;
+  }
+
+}
+
+.visually-hidden:checked ~ .middil__span{
+ background: $--darc-syan-color;
+ color: $--Light-Cream-color;
+ transition: all 0.4s ease;
+
+}
+
+.visually-hidden:checked ~ .middil__span > .middil__lead{
+ color: $--Light-Cream-color;
+ transition: all 0.4s ease;
+}
+
+.visually-hidden:checked ~ .middil__span > .middil__text{
+ color: $--Light-Cream-color;
+ transition: all 0.4s ease;
+}
+
+
+.middil__lead{
+ font-weight: 900;
+ font-size: 24px;
+ line-height: 32px;
+ color: $--Grey-Blue-color;
+ font-family: $--font-font-font-family;
+}
+
+.middil__text{
+ font-size: 16px;
+ line-height: 26px;
+ color: $--Grey-Blue-color;
+ opacity: 0.8;
+}
+
+.box{
+ margin-bottom: 88px;
+}
+
+.middil__order{
+ width: 730px;
+ height: 208px;
+ background-color: #282E38;
+ border-radius: 10px;
+ padding: 47px 64px;
+ margin-bottom: 40px;
+}
+
+.middil__summary{
+ font-size: 16px;
+ line-height: 26px;
+ color: #ffff;
+ opacity: 0.5;
+}
+
+.middil__drink{
+ font-weight: 900;
+ font-size: 24px;
+ line-height: 40px;
+ color: #FFF;
+ font-family: $--font-font-font-family;
+}
+
+.middil__collor{
+ color: $--darc-syan-color;
+}
+
+.middil__button{
+ width: 217px;
+ height: 56px;
+ padding: 16px 36px;
+ color: #fff;
+ background-color:$--darc-syan-color;
+ font-family: $--font-font-font-family;
+ border-radius: 10px;
+ border: none;
+ margin-left: 515px;
+}
+
+.middil__button:hover{
+ opacity: 0.6;
+ transition: all 0.4s ease;
+}

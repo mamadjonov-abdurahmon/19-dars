@@ -1,0 +1,36 @@
+.hero{
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding-top: 40px;
+ margin-bottom: 45px;
+}
+
+.hero__item{
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ display: flex;
+ align-items: center;
+}
+
+.hero__list{
+ margin-right:33px;
+}
+
+.hero__list:nth-child(3){
+ margin: 0;
+}
+
+.hero__link{
+ text-decoration: none;
+ color: $--Grey-color;
+ font-weight: bold;
+ font-size: 12px;
+ line-height: 15px;
+}
+
+.hero__link:hover{
+ color: $--Grey-Blue-color;
+ transition: all 0.4s ease;
+}

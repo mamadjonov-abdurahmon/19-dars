@@ -1,0 +1,30 @@
+.intro{
+ background-image: url("../images/Bitmap.png");
+ width: 1280px;
+ height: 450px;
+ border-radius: 10px;
+ padding: 134px 86px;
+ margin-bottom: 155px;
+}
+
+.intro__box{
+ width: 445px;
+}
+
+.itro__taitl{
+ font-weight: 900;
+ font-size: 72px;
+ line-height: 72px;
+ color:$--Light-Cream-color;
+ font-family: $--font-font-font-family;
+ margin: 0;
+ margin-bottom: 32px;
+}
+
+.intro__text{
+ color:$--Light-Cream-color;
+ font-size: 16px;
+ line-height: 26px;
+ opacity: 0.8;
+ margin: 0;
+}
